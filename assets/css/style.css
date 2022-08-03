@@ -1,0 +1,356 @@
+@media (min-width: 739px)
+{
+.note
+{
+    display: none;
+}
+
+body
+{
+    background: linear-gradient(to top right, red);
+    -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          -o-user-select: none;
+           user-select: none;
+}
+
+#main
+{
+    width: 100%;
+    height: 1100px;
+    position: relative;
+}
+
+#body
+{
+    display: block;
+    width: 95%;
+    height: 1050px;
+    background-color: white;
+    top: 25px;
+    left: 2.5%;
+    position: absolute;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#cover #cover-img
+{
+    width: 100%;
+    height: 400px;
+    border-radius: 50px 50px 0 0;
+}
+
+#body #cover .name
+{
+    position: absolute;
+    top: 250px;
+    right: 600px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#body #cover .name:hover
+{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+
+#body #cover .work
+{
+    position: absolute;
+    top: 295px;
+    right: 575px;
+    color: gray;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#body #cover .work:hover
+{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+
+#body #cover .id
+{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#body #cover .id:hover
+{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+
+#body #content-body
+{
+    margin-left: 35%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.calendar
+{
+    display: inline;
+    font-weight: 600;
+}
+
+.calendar-icon
+{
+    color: blue;
+}
+
+.location
+{
+    margin-left: 200px;
+    display: inline;
+    font-weight: 600px;
+}
+
+.location-icon
+{
+    color: green;
+}
+
+.contact
+{
+    display: block;
+    color: red;
+    font-weight: bold;
+}
+
+.email,
+.phone,
+.web
+{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.email:hover,
+.phone:hover,
+.web:hover
+{
+    font-weight: 900;
+    color: blueviolet;
+}
+
+.content-about:hover
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.content-about
+{
+    width: 850px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0 50px 0 50px;
+    padding: 0 10px 0 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#avatar
+{
+    width: 350px;
+    height: 800px;
+    z-index: 1;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    border-radius: 0 50px 0 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.avatar-img img
+{
+    width: 100%;
+    border-radius: 0 50px 0 50px;
+}
+
+.follow
+{
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    font-size: 35px;
+    color: red;
+    background-color: azure;
+    width: 170px;
+    height: 60px;
+    top: 430px;
+    left: 100px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.follow:hover
+{
+    background-color: green;
+    color: black;
+    box-shadow: 0 0 30px red;
+    font-size: 40px;
+}
+
+.social-network
+{
+    font-size: 25px;
+    position: absolute;    
+}
+
+.facebook
+{
+    top: 550px;
+    left: 80px;
+}
+
+.facebook:hover
+{
+    font-size: 30px;
+}
+
+.instagram
+{
+    top: 600px;
+    left: 80px;
+}
+
+.instagram:hover
+{
+    font-size: 30px;
+}
+
+.github
+{
+    top: 650px;
+    left: 80px;
+}
+
+.github:hover
+{
+    font-size: 30px;
+}
+
+.link
+{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.fb-icon,
+.link-icon
+{
+    color: blue;
+}
+
+.ins-icon,
+.yt-icon
+{
+    color: red;
+}
+}
+
+@media (max-width: 739px)
+{
+    .note
+    {
+        position: fixed;
+        top: 35%;
+        display: inline;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: red;
+    }
+
+    #body
+    {
+        display: none;
+    }
+
+    #avatar
+    {
+        z-index: 1;
+        background-color: white;
+        top: 200px;
+        left: 100px;
+        border-radius: 0 50px 0 50px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .avatar-img img
+    {
+        width: 100%;
+        border-radius: 0 50px 0 50px;
+    }
+
+    .follow
+    {
+        border: none;
+        border-radius: 50px;
+        position: absolute;
+        font-size: 35px;
+        color: red;
+        background-color: azure;
+        width: 170px;
+        height: 60px;
+        top: 430px;
+        left: 25%;
+        font-weight: 800;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .facebook
+    {
+        top: 550px;
+        left: 25%;
+    }
+
+    .instagram
+    {
+        top: 600px;
+        left: 25%;
+    }
+
+    .github
+    {
+        top: 650px;
+        left: 25%;
+    }
+
+
+    .fb-icon,
+    .link-icon
+    {
+        color: blue;
+    }
+
+    .ins-icon,
+    .yt-icon
+    {
+        color: red;
+    }
+}
